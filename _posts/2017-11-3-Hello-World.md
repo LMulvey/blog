@@ -1,8 +1,7 @@
 ---
 layout: post
-title: Freelance Web Developer \#203046034
+title: Freelance Web Developer #203046034
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
-
+Welcome to my blog. I'll mostly have ramblings here and the occassional tip and trick I've learned along the way on my long path to making Web Development my full career.
 !This is in the readmore.
