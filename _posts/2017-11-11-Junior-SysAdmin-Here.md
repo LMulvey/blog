@@ -41,7 +41,7 @@ After launching my app through PM2, I learned how `express.static` actually work
 
 ## Not The End
 
-This is where I'm at only a few days in. It's exciting being in command of your own VPS and not having to create support tickets to fix minor issues. I'll continue to share mmy learnings as I go!
+This is where I'm at only a few days in. It's exciting being in command of your own VPS and not having to create support tickets to fix minor issues. I'll continue to share my learnings as I go!
 
 
 
