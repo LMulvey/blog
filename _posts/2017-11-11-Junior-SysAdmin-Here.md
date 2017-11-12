@@ -15,7 +15,7 @@ One of my newer clients had arranged free hosting with a friend operated an Apac
 Class 'Imagick' not found.
 ```
 
-Sigh. So, I contact him again. Weeks go by with no response. I'm left talking to the client to discuss why this issue is happening, and why I can't get the tool working-- a tool that was in the original scope of the project and was due to be finished *months ago*. Eventually, I had my client agree to pay for proper hosting. But, having come fresh off the frustrations of needing to go through someone else to fix sever issues, I suggested that we go the route of *DigitalOcean*. I didn't have a ton of experience actually spinning up an Ubuntu sever from scratch and new I had a bit of reading to do.
+Sigh. So, I contact him again. Weeks go by with no response. I'm left talking to the client to discuss why this issue is happening, and why I can't get the tool working-- a tool that was in the original scope of the project and was due to be finished *months ago*. Eventually, I had my client agree to pay for proper hosting. But, having come fresh off the frustrations of needing to go through someone else to fix sever issues, I suggested that we go the route of *DigitalOcean*. I didn't any xperience actually spinning up an Ubuntu sever from scratch and knew I had a bit of reading to do.
 
 I've spent the last few days working through [*Servers For Hackers* by Chris Fidao](https://book.serversforhackers.com/) to help guide me on my adventure. Now that the client's site is actually ported over and up-and-running, I'll share a few of my learnings:
 
@@ -37,7 +37,7 @@ I seriously needed to read the documentation here on serving static files. My fi
 -->/js
 ```
 
-After launching my app through PM2, I learned how `express.static` actually works and where how it finds my static files. After doing a ton of reading and wanting to throw my MacBook off my balcony, I found a solution that worked. I removed my `/server/` folder and moved my `server.js` to the main app directory, along with my `/routes/` and `/views/` folders. I then set my `express.static` to: `express.static(__dirname + '/public')` and all my static assets were properly served.
+After launching my app through PM2, I had to learn how `express.static` actually works and how it finds my static files (hint: it's relative to where you launch your Node.js process). After a few hours and a few fleeting desires to chuck my MacBook off the balcony, I found a solution that worked. I removed my `/server/` folder and moved my `server.js` to the main app directory, along with my `/routes/` and `/views/` folders. I then set my `express.static` to: `express.static(__dirname + '/public')` and all my static assets were properly served. A happy ending to a frustrating day 👍.
 
 ## Not The End
 
