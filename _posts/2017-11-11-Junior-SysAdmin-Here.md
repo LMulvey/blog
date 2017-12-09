@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Junior SysAdmin
+comments: true
 ---
 
 I've embarked on a new adventure I've anticipated for quite a while - the journey to becoming a System Administrator.

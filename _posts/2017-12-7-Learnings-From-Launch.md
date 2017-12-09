@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Launch Learnings&#58; Triple C
+comments: true
 ---
 
 In my last post, I described some of the trials of making the jump to being a Junior SysAdmin. Jumping into the unknown is one of my favourite parts of working in Web Development. It can be an *extremely* overwhelming industry at times and I oftenfind myself experiencing a serious amount of imposter syndrome. That said, anytime I take on a project, I break it into smaller components and build it back up. With that method, I rarely hit a wall so large that I can't hurdle over it to the finish line. 🐎
