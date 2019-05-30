@@ -12,9 +12,12 @@ When writing complex control flow, sometimes your conditionals can get absolutel
 
 ```
 function handleServerErrors(error) {
-  // we need to determine that it is indeed a server error, a specific response code,
-  // and we're not already on the error page
-  if ([500, 401, 501].includes(error.code) && error.errorType === 'A04F' && !router.pathname.includes('error-page')) {
+    // we need to determine that it is indeed a server error,
+  // a specific response code, and we're not already on the
+  // error page
+  if ([500, 401, 501].includes(error.code)
+      && error.errorType === 'A04F'
+      && !router.pathname.includes('error-page')) {
     // handle our error here
     ...
   }
@@ -27,8 +30,9 @@ needed. There's something to be said about performance here as initializing a bu
 
 ```
 function handleServerErrors(error) {
-  // we need to determine that it is indeed a server error, a specific response code,
-  // and we're not already on the error page
+  // we need to determine that it is indeed a server error,
+  // a specific response code, and we're not already on the
+  // error page
   const isSeriousCode = [404, 401, 501].includes(error.code);
   const isServerError = error.errorType === 'A04F';
   const isOnErrorPage = !router.pathname.includes('error-page');
