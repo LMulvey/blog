@@ -8,5 +8,6 @@ I'm a Senior Web Developer with [Critical Mass](https://criticalmass.com). I'm a
 
 ### Contact me
 
-[Twitter](https://www.twitter.com/leemulvey)
-[hello@leemulvey.com](mailto:hello@leemulvey.com)
+🐦[Twitter](https://www.twitter.com/leemulvey)
+
+📨[Email](mailto:hello@leemulvey.com)
